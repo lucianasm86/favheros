@@ -1,8 +1,58 @@
-/* Your CSS styling goes here. For example:
-
-h1 {
-	color: pink;
-	font-size: 50px;
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-*/
+ul {
+    padding: 5px 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 25px;
+}
+
+nav {
+    background-color: #5e417f;
+    padding: 25px;
+    text-align: center;
+}
+
+li {
+    background-color: #a48dbf;
+    display: inline-block;
+    margin: 50px;
+    padding: 25px;
+}
+
+a {
+    color: #6e43a0;
+    text-decoration: none;
+}
+
+section {
+    background-color: #a48dbf;
+    text-align: center;
+}
+
+div.box {
+    display: inline-block;
+    width: 30%;
+}
+
+div img {
+    width: 100%;
+}
+
+p {
+    background-color: #ffffff;
+    border: 3px solid #6e43a0;
+    padding: 15px;
+}
+
+p::first-letter {
+    font-size: 40px;
+    color: #6e43a0;
+}
